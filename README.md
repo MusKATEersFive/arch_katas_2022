@@ -1,1 +1,1 @@
-# -arch_katas_2022
+# arch_katas_2022
