@@ -24,9 +24,9 @@ The logical view is concerned with the functionality that the system provides to
 ![](../assets/candidateSchema.png)
 
 ## Glossary
-**NPO** - Non profit organisation
-**Candidate** - Person the NPO helps to find and keep a job
-**Provider** - Person or organisation who helps the NPO to serve its clients. The providers may include NPOs employee or third party providers like teachers, mentors, babysitters, funders, etc.
+* **NPO** - Non profit organisation
+* **Candidate** - Person the NPO helps to find and keep a job
+* **Provider** - Person or organisation who helps the NPO to serve its clients. The providers may include NPOs employee or third party providers like teachers, mentors, babysitters, funders, etc.
 
 
 ## About the problem
