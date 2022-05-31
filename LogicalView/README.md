@@ -1,27 +1,5 @@
 # Logical view 
 
-The logical view is concerned with the functionality that the system provides to end-users. UML diagrams are used to represent the logical view, and include class diagrams, and state diagrams.
-
-## Domain areas:
-
-### Non-Profit Community
-* NonProfit Profiles
-  * Open Community - No Connection Requests
-     *  Due to the open community please ensure volume of posts will not cause missing important content, maybe a separate forum for posts the nonprofit opts into?
-  * Engagement Enhancers - how can engagement be enhanced based on app/platform design and functionality? Weekly NonProfit Spotlights for
-  * Engagement? How else to incentivize? 
-* Candidate Onboarding Community
-  * Registration
-  * Needs Assessment
-  * Career Roadmap
-* Candidate / Non-Profit Matching
-  * What is the most efficient and effective process to meet the need?
-  * How will candidate progress be tracked
-  * How will nonprofit gain value?
-* Integration (extranet)
-
-
-![](../assets/candidateSchema.png)
 
 ## Glossary
 * **NPO** - Non profit organisation
@@ -29,7 +7,8 @@ The logical view is concerned with the functionality that the system provides to
 * **Provider** - Person or organisation who helps the NPO to serve its clients. The providers may include NPOs employee or third party providers like teachers, mentors, babysitters, funders, etc.
 
 
-## About the problem
+
+## About the problem [taken from O'Reilly Architecture Katas 2022 assignment]
 Idea how it works
 NPO helps candidates to find a job. To help them finding a job and be able to keep it, different NPOs provides support in different areas:
 
@@ -50,7 +29,8 @@ How it works?
 4. Candidate is notified about upcomming training, appoitments etc..
 …
 
-## Problems to solve
+## Domains identification
+
 ### NPOs collaboration
 `Problem statement #1: The Spotlight App Project is a sustained effort to amass a coalition of nonprofits in order to address specific needs within the communities we serve by leveraging a centralized platform as the base of operations to collaborate and make a collective impact.Problem Statement #1: The decentralization and lack of support between nonprofits create gaps of service and overall impact.`
 
@@ -76,3 +56,60 @@ How it works?
    * interviews with potential employers,
    * courses, trainings taken
    * Services provided - attire borrowing, day care services usage etc..
+
+
+## System view
+
+### Actors
+
+| Name                          | Description |
+|-------------------------------|-------------|
+| Admin                         | TODO        |
+| Non-Profit organization agent | TODO        |
+| Candidate                     | TODO        |
+
+
+ 
+
+### Application components
+
+![](../assets/logical_view_01.png)
+
+#### Non-Profit view
+| Name                   | Description                          |
+|------------------------|--------------------------------------|
+| Candiates management   | TODO                                 |
+| Collaboration platform | TODO Forums, chats, statistics, .... |
+
+
+
+#### Candidate view
+| Name                 | Description                                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------------------------|
+| NPO Discover         | TODO                                                                                                            |
+| Onboarding           | TODO     * Registration * Needs Assessment * Career Roadmap                                                     |
+| Inquiry match engine | TODO   * What is the most efficient and effective process to meet the need?    * How will nonprofit gain value? |
+
+
+#### Universal view
+| Name           | Description |
+|----------------|-------------|
+| NPO management | TODO        |
+| Dashboard      | TODO        |
+| NPO care tool  | TODO        |
+| Data analasis  | How will candidate progress be tracked        |
+
+#### External services
+| Name                 | Description |
+|----------------------|-------------|
+| Notification service | TODO        |
+
+
+
+TODO :
+
+* NonProfit Profiles
+    * Open Community - No Connection Requests
+        *  Due to the open community please ensure volume of posts will not cause missing important content, maybe a separate forum for posts the nonprofit opts into?
+    * Engagement Enhancers - how can engagement be enhanced based on app/platform design and functionality? Weekly NonProfit Spotlights for
+    * Engagement? How else to incentivize?

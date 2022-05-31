@@ -30,3 +30,6 @@ The process view deals with the dynamic aspects of the system, explains the syst
 * Step 8 Introductory meeting is schedule within 1-2 weeks to discuss non profit service capabilities, responsibilities, & expectations
 * Step 9 Regular cadence touchpoints scheduled between new non-profit and community leader
 * Step 10 Platform Role based training is assigned to new Non-Profit Step 11 New Non-Profit is invited to monthly community meetings
+
+
+![](../assets/candidateSchema.png)
