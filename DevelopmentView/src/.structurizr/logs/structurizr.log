@@ -1,0 +1,87 @@
+[INFO ] 2022-06-01 14:09:22.569 [main] Configuration - ***********************************************************************************
+[INFO ] 2022-06-01 14:09:22.579 [main] Configuration -    _____ _                   _              _          
+[INFO ] 2022-06-01 14:09:22.581 [main] Configuration -   / ____| |                 | |            (_)         
+[INFO ] 2022-06-01 14:09:22.582 [main] Configuration -  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+[INFO ] 2022-06-01 14:09:22.583 [main] Configuration -   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+[INFO ] 2022-06-01 14:09:22.584 [main] Configuration -   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+[INFO ] 2022-06-01 14:09:22.584 [main] Configuration -  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+[INFO ] 2022-06-01 14:09:22.584 [main] Configuration -                                                        
+[INFO ] 2022-06-01 14:09:22.584 [main] Configuration -  Structurizr Lite
+[INFO ] 2022-06-01 14:09:22.586 [main] Configuration -  Build: 2744
+[INFO ] 2022-06-01 14:09:22.589 [main] Configuration -  Built: 2022-05-29T08:19:12Z
+[INFO ] 2022-06-01 14:09:22.609 [main] Configuration -  Structurizr DSL: v1.19.2
+[INFO ] 2022-06-01 14:09:22.611 [main] Configuration - 
+[INFO ] 2022-06-01 14:09:22.612 [main] Configuration -  Workspace path: /usr/local/structurizr
+[INFO ] 2022-06-01 14:09:22.612 [main] Configuration -  URL: 
+[INFO ] 2022-06-01 14:09:22.613 [main] Configuration -  Memory: used=97MB; free=158MB; total=256MB; max=256MB
+[INFO ] 2022-06-01 14:09:22.618 [main] Configuration - ***********************************************************************************
+[ERROR] 2022-06-01 14:09:32.082 [http-nio-8080-exec-3] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Unexpected tokens at line 7: container1 = container1 "Container"
+[ERROR] 2022-06-01 14:09:32.089 [http-nio-8080-exec-3] Http500Controller - null
+[ERROR] 2022-06-01 14:17:53.697 [http-nio-8080-exec-9] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Identifiers can only contain the following characters: a-zA-Z_0-9 at line 6: non-profit = person "Non-Profit"
+[ERROR] 2022-06-01 14:17:53.698 [http-nio-8080-exec-9] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Identifiers can only contain the following characters: a-zA-Z_0-9 at line 6: non-profit = person "Non-Profit"
+[WARN ] 2022-06-01 14:18:09.883 [http-nio-8080-exec-3] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 14:18:09.886 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 14:18:27.491 [http-nio-8080-exec-5] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "user" does not exist at line 15: user -> softwareSystem "Uses"
+[ERROR] 2022-06-01 14:18:27.492 [http-nio-8080-exec-5] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "user" does not exist at line 15: user -> softwareSystem "Uses"
+[ERROR] 2022-06-01 14:18:46.470 [http-nio-8080-exec-4] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The destination element "softwareSystem" does not exist at line 15: admin -> softwareSystem "nonProfitService"
+[ERROR] 2022-06-01 14:18:46.474 [http-nio-8080-exec-4] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The destination element "softwareSystem" does not exist at line 15: admin -> softwareSystem "nonProfitService"
+[ERROR] 2022-06-01 14:19:05.701 [http-nio-8080-exec-8] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The software system "softwareSystem" does not exist at line 19: systemContext softwareSystem "Diagram1" {
+[ERROR] 2022-06-01 14:19:05.702 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The software system "softwareSystem" does not exist at line 19: systemContext softwareSystem "Diagram1" {
+[ERROR] 2022-06-01 14:27:06.157 [http-nio-8080-exec-4] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: A software system name must be specified at line 16: webApplication = softwareSystem ""
+[ERROR] 2022-06-01 14:27:06.158 [http-nio-8080-exec-4] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: A software system name must be specified at line 16: webApplication = softwareSystem ""
+[ERROR] 2022-06-01 14:59:40.766 [http-nio-8080-exec-6] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The source element "admin" does not exist at line 20: admin -> webApplication "Uses"
+[ERROR] 2022-06-01 14:59:40.771 [http-nio-8080-exec-6] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The source element "admin" does not exist at line 20: admin -> webApplication "Uses"
+[WARN ] 2022-06-01 14:59:51.040 [http-nio-8080-exec-1] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 14:59:51.049 [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 15:19:26.843 [http-nio-8080-exec-1] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: View keys can only contain the following characters: a-zA-0-9_- at line 35: systemContext spotlightApp "SpotlightApp system context diagram" {
+[ERROR] 2022-06-01 15:19:26.845 [http-nio-8080-exec-1] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: View keys can only contain the following characters: a-zA-0-9_- at line 35: systemContext spotlightApp "SpotlightApp system context diagram" {
+[WARN ] 2022-06-01 15:19:34.733 [http-nio-8080-exec-8] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 15:19:34.735 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 15:19:42.334 [http-nio-8080-exec-9] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: View keys can only contain the following characters: a-zA-0-9_- at line 35: systemContext spotlightApp "SpotlightApp system context diagram" {
+[ERROR] 2022-06-01 15:19:42.336 [http-nio-8080-exec-9] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: View keys can only contain the following characters: a-zA-0-9_- at line 35: systemContext spotlightApp "SpotlightApp system context diagram" {
+[ERROR] 2022-06-01 15:46:50.021 [http-nio-8080-exec-5] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The element "webApplication" is not a software system at line 39: container webApplication "WebApplication" {
+[ERROR] 2022-06-01 15:46:50.021 [http-nio-8080-exec-5] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The element "webApplication" is not a software system at line 39: container webApplication "WebApplication" {
+[WARN ] 2022-06-01 15:50:30.380 [http-nio-8080-exec-6] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 15:50:30.383 [http-nio-8080-exec-6] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 15:52:14.679 [http-nio-8080-exec-1] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: A view with the key SpotlightApp already exists at line 41: container spotlightApp "SpotlightApp" {
+[ERROR] 2022-06-01 15:52:14.679 [http-nio-8080-exec-1] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: A view with the key SpotlightApp already exists at line 41: container spotlightApp "SpotlightApp" {
+[ERROR] 2022-06-01 15:52:30.811 [http-nio-8080-exec-10] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: View keys can only contain the following characters: a-zA-0-9_- at line 41: container spotlightApp "SpotlightApp Detail" {
+[ERROR] 2022-06-01 15:52:30.812 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: View keys can only contain the following characters: a-zA-0-9_- at line 41: container spotlightApp "SpotlightApp Detail" {
+[WARN ] 2022-06-01 15:52:37.467 [http-nio-8080-exec-5] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 15:52:37.469 [http-nio-8080-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 21:32:34.583 [http-nio-8080-exec-8] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Too many tokens, expected: group <name> { at line 11: group "Backend" "Backend services" {
+[ERROR] 2022-06-01 21:32:34.583 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Too many tokens, expected: group <name> { at line 11: group "Backend" "Backend services" {
+[WARN ] 2022-06-01 21:32:45.020 [http-nio-8080-exec-7] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 21:32:45.022 [http-nio-8080-exec-7] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 21:45:54.509 [http-nio-8080-exec-2] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Too many tokens, expected: theme <url> at line 61: theme default https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json
+[ERROR] 2022-06-01 21:45:54.513 [http-nio-8080-exec-2] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Too many tokens, expected: theme <url> at line 61: theme default https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json
+[WARN ] 2022-06-01 21:46:08.737 [http-nio-8080-exec-1] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 21:46:08.739 [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 21:50:31.030 [http-nio-8080-exec-10] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Unexpected tokens at line 12: group "VPC" {
+[ERROR] 2022-06-01 21:50:31.030 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Unexpected tokens at line 12: group "VPC" {
+[WARN ] 2022-06-01 21:50:42.133 [http-nio-8080-exec-6] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 21:50:42.135 [http-nio-8080-exec-6] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 21:53:26.856 [http-nio-8080-exec-7] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Unexpected tokens at line 13: candidateService = container "candidate-service" "Manages/provides candidates data."
+[ERROR] 2022-06-01 21:53:26.857 [http-nio-8080-exec-7] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Unexpected tokens at line 13: candidateService = container "candidate-service" "Manages/provides candidates data."
+[WARN ] 2022-06-01 21:53:38.790 [http-nio-8080-exec-9] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 21:53:38.797 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 21:55:42.864 [http-nio-8080-exec-4] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The container "VPC" does not exist at line 63: component VPC "VPCComponent" {
+[ERROR] 2022-06-01 21:55:42.864 [http-nio-8080-exec-4] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The container "VPC" does not exist at line 63: component VPC "VPCComponent" {
+[ERROR] 2022-06-01 21:56:17.603 [http-nio-8080-exec-5] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The element "spotlightApp" is not a container at line 63: component spotlightApp "VPCComponent" {
+[ERROR] 2022-06-01 21:56:17.607 [http-nio-8080-exec-5] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The element "spotlightApp" is not a container at line 63: component spotlightApp "VPCComponent" {
+[ERROR] 2022-06-01 21:56:37.955 [http-nio-8080-exec-6] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: The container "VPC" does not exist at line 63: component VPC "VPCComponent" {
+[ERROR] 2022-06-01 21:56:37.956 [http-nio-8080-exec-6] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: The container "VPC" does not exist at line 63: component VPC "VPCComponent" {
+[WARN ] 2022-06-01 21:56:56.674 [http-nio-8080-exec-3] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 21:56:56.676 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 22:23:22.233 [http-nio-8080-exec-10] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Documentation path /usr/local/structurizr/documentation/email-server.md is not a directory at line 29: !docs documentation/email-server.md
+[ERROR] 2022-06-01 22:23:22.233 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Documentation path /usr/local/structurizr/documentation/email-server.md is not a directory at line 29: !docs documentation/email-server.md
+[WARN ] 2022-06-01 22:23:33.423 [http-nio-8080-exec-7] PageNotFound - No mapping for POST /error
+[WARN ] 2022-06-01 22:23:33.424 [http-nio-8080-exec-7] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[ERROR] 2022-06-01 22:43:33.046 [http-nio-8080-exec-8] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Unexpected tokens at line 4: !adrs documentation/adr
+[ERROR] 2022-06-01 22:43:33.046 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Unexpected tokens at line 4: !adrs documentation/adr
+[ERROR] 2022-06-01 22:44:17.274 [http-nio-8080-exec-4] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr
+[ERROR] 2022-06-01 22:44:17.275 [http-nio-8080-exec-4] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr
+[ERROR] 2022-06-01 22:47:02.069 [http-nio-8080-exec-7] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr
+[ERROR] 2022-06-01 22:47:02.071 [http-nio-8080-exec-7] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr
+[ERROR] 2022-06-01 22:49:19.377 [http-nio-8080-exec-6] FileSystemWorkspaceComponent - com.structurizr.dsl.StructurizrDslParserException: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr
+[ERROR] 2022-06-01 22:49:19.379 [http-nio-8080-exec-6] ApiController - com.structurizr.lite.web.ApiException: workspace.dsl: Error importing ADRs from /usr/local/structurizr/documentation/adr: java.lang.NumberFormatException: For input string: "adr." at line 2: !adrs documentation/adr

@@ -1,0 +1,521 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-06-01T22:50:55Z",
+  "lastModifiedAgent" : "structurizr-web/2744/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgICFhZHJzIGRvY3VtZW50YXRpb24vYWRyCiAgICBtb2RlbCB7CgogICAgICAgIGNhbmRpZGF0ZSA9IHBlcnNvbiAiQ2FuZGlkYXRlIiAiQ2FuZGlkYXRlIG9mIE5QTyBoZWxwIgogICAgICAgIG5vbnByb2ZpdCA9IHBlcnNvbiAiTm9uLVByb2ZpdCBjb21wYW55IHJlcHJlc2VudGF0aXZlIiAiTlBPIHJlcHJlc2VudGF0aXZlIHRoYXQgYWRtaW5pc3RyYXRlIHRoZSBOUE8gcHJvZmlsZSBvbiBwbGF0Zm9ybSIKICAgICAgICB2dWxlbnRlZXIgPSBwZXJzb24gIlZ1bGVudGVlciIgIlZ1bGVudGVlciBvZiBOUE8iCgogICAgICAgIGVudGVycHJpc2UgRGl2ZXJzaXR5Q3liZXJDb3Vuc2lsIHsKICAgICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIgIlN5c3RlbSBhZG1pbmlzdHJhdG9yIgogICAgICAgICAgc3BvdGxpZ2h0QXBwID0gc29mdHdhcmVTeXN0ZW0gIlNwb3RsaWdodEFwcCIgIlNwb3RsaWdodEFwcCBwbGF0Zm9ybSIgewogICAgICAgICAgICAhZG9jcyBkb2N1bWVudGF0aW9uL3Nwb3RsaWdodC1hcHAKICAgICAgICAgICAgZ3JvdXAgIkFXUyIgewogICAgICAgICAgICAgIFZQQyA9IGNvbnRhaW5lciAiVlBDIiAiVmlydHVhbCBQcml2YXRlIE5ldHdvcmsiICJBV1MgVlBDIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEZhcmdhdGUiIHsKICAgICAgICAgICAgICAgIGNhbmRpZGF0ZVNlcnZpY2UgPSBjb21wb25lbnQgImNhbmRpZGF0ZS1zZXJ2aWNlIiAiTWFuYWdlcy9wcm92aWRlcyBjYW5kaWRhdGVzIGRhdGEuIgogICAgICAgICAgICAgICAgbm9uUHJvZml0U2VydmljZSA9IGNvbXBvbmVudCAibm9uLXByb2ZpdC1zZXJ2aWNlIiAiTWFuYWdlcy9wcm92aWRlcyBOUE8uIgogICAgICAgICAgICAgICAgY29tbXVuaXR5U2VydmljZSA9IGNvbXBvbmVudCAiY29tbXVuaXR5LXNlcnZpY2UiICJNYW5hZ2VzL3Byb3ZpZGVzIGNvbW11bml0eSBkYXRhLiIKICAgICAgICAgICAgICAgIHJvYWRtYXBTZXJ2aWNlID0gY29tcG9uZW50ICJyb2FkbWFwLXNlcnZpY2UiICJNYW5hZ2VzIGNhbmRpZGF0ZXMgcm9hZG1hcHMuIgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBmaWxlU3RvcmFnZSA9IGNvbnRhaW5lciAiZmlsZS1zdG9yYWdlIiAiRmlsZSBzdG9yYWdlLiIgIkFXUyBTMyIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBTaW1wbGUgU3RvcmFnZSBTZXJ2aWNlIFMzIgogICAgICAgICAgICAgIGFwaUdhdGV3YXkgPSBjb250YWluZXIgImFwaS1nYXRld2F5IiAiIEhhbmRsZXMgaW5ib3VuZCBjb21tdW5pY2F0aW9uIC0gYXV0aGVudGlzYXRpb24vYXV0aG9yaXNhdGlvbi4iICJBV1MgQVBJIEdhdGV3YXkiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQVBJIEdhdGV3YXkiCiAgICAgICAgICAgICAgYXV0aG9yaXplciA9IGNvbnRhaW5lciAiYXV0aG9yaXplciIgIkF1dGhvcml6YXRpb24vYXV0aGVudGljYXRpb24gb2YgdXNlciB1c2luZyBmZWRlcmFsaXplZCBhdXRob3JpdHkuIiAiQVdTIExhbWJkYSIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBMYW1iZGEiCiAgICAgICAgICAgICAgaWRlbnRpdHlQb29sID0gY29udGFpbmVyICJpZGVudGl0eS1wb29sIiAiSWRlbnRpdHkgcG9vbCB3aXRoIHJvbGVzIG1hbmFnZW1lbnQiICJBV1MgQ29nbml0byIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDb2duaXRvIgogICAgICAgICAgICB9CiAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uID0gY29udGFpbmVyICJXZWJBcHBsaWNhdGlvbiIgIlNwb3RsaWdodCBXZWIgQXBwbGljYXRpb24iCiAgICAgICAgICB9CgogICAgICAgIH0KCiAgICAgICAgZW1haWxTZXJ2ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiZS1tYWlsIHNlcnZlciIgewogICAgICAgICAhZG9jcyBkb2N1bWVudGF0aW9uL2VtYWlsLXNlcnZlcgogICAgICAgIH0KCgogICAgICAgIGFkbWluIC0+IHNwb3RsaWdodEFwcCAiQWRtaW5pc3RyYXRlIgogICAgICAgIGNhbmRpZGF0ZSAtPiBzcG90bGlnaHRBcHAgIlVzZXMiCiAgICAgICAgbm9ucHJvZml0IC0+IHNwb3RsaWdodEFwcCAiVXNlcyIKCiAgICAgICAgd2ViQXBwbGljYXRpb24gLT4gYXBpR2F0ZXdheQogICAgICAgIGFwaUdhdGV3YXkgLT4gY2FuZGlkYXRlU2VydmljZQogICAgICAgIGFwaUdhdGV3YXkgLT4gbm9uUHJvZml0U2VydmljZQogICAgICAgIGFwaUdhdGV3YXkgLT4gY29tbXVuaXR5U2VydmljZQoKICAgICAgICBhcGlHYXRld2F5IC0+IGF1dGhvcml6ZXIKICAgICAgICBhdXRob3JpemVyIC0+IGlkZW50aXR5UG9vbAoKICAgICAgICBjYW5kaWRhdGVTZXJ2aWNlIC0+IHJvYWRtYXBTZXJ2aWNlCiAgICAgICAgY2FuZGlkYXRlU2VydmljZSAtPiBjb21tdW5pdHlTZXJ2aWNlCiAgICAgICAgbm9uUHJvZml0U2VydmljZSAtPiByb2FkbWFwU2VydmljZQogICAgICAgIG5vblByb2ZpdFNlcnZpY2UgLT4gY2FuZGlkYXRlU2VydmljZQogICAgICAgIG5vblByb2ZpdFNlcnZpY2UgLT4gY29tbXVuaXR5U2VydmljZQoKICAgICAgICBjYW5kaWRhdGVTZXJ2aWNlIC0+IGVtYWlsU2VydmVyCiAgICAgICAgbm9uUHJvZml0U2VydmljZSAtPiBlbWFpbFNlcnZlcgoKICAgICAgICBjYW5kaWRhdGVTZXJ2aWNlIC0+IGZpbGVTdG9yYWdlCiAgICAgICAgbm9uUHJvZml0U2VydmljZSAtPiBmaWxlU3RvcmFnZQogICAgICAgIHJvYWRtYXBTZXJ2aWNlIC0+IGZpbGVTdG9yYWdlCgoKICAgICAgICBzcG90bGlnaHRBcHAgLT4gZW1haWxTZXJ2ZXIgIlNlbmQgbm90aWZpY2F0aW9uIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IHNwb3RsaWdodEFwcCAiU3BvdGxpZ2h0QXBwIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc3BvdGxpZ2h0QXBwICJTcG90bGlnaHRBcHBDb250YWluZXIiIHsKICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IFZQQyAiVlBDQ29tcG9uZW50IiB7CiAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHRoZW1lcyBkZWZhdWx0IGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIwLjA0LjMwL3RoZW1lLmpzb24KICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "DiversityCyberCounsil"
+    },
+    "people" : [ {
+      "id" : "4",
+      "tags" : "Element,Person",
+      "name" : "Admin",
+      "description" : "System administrator",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "5",
+        "description" : "Administrate"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person",
+      "name" : "Vulenteer",
+      "description" : "Vulenteer of NPO",
+      "location" : "External"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Candidate",
+      "description" : "Candidate of NPO help",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Uses"
+      } ],
+      "location" : "External"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Non-Profit company representative",
+      "description" : "NPO representative that administrate the NPO profile on platform",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Uses"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "16",
+      "tags" : "Element,Software System",
+      "name" : "e-mail server",
+      "location" : "External",
+      "documentation" : {
+        "sections" : [ {
+          "title" : "E-mail server",
+          "content" : "## E-mail server\n\nExternal provider will be used.\n",
+          "format" : "Markdown",
+          "order" : 1
+        } ]
+      }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "SpotlightApp",
+      "description" : "SpotlightApp platform",
+      "relationships" : [ {
+        "id" : "40",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "16",
+        "description" : "Send notification"
+      }, {
+        "id" : "34",
+        "sourceId" : "5",
+        "destinationId" : "16",
+        "linkedRelationshipId" : "32"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "14",
+        "tags" : "Element,Container,Amazon Web Services - Cognito",
+        "name" : "identity-pool",
+        "description" : "Identity pool with roles management",
+        "group" : "AWS",
+        "technology" : "AWS Cognito"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Amazon Web Services - Simple Storage Service S3",
+        "name" : "file-storage",
+        "description" : "File storage.",
+        "group" : "AWS",
+        "technology" : "AWS S3"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "WebApplication",
+        "description" : "Spotlight Web Application",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "12"
+        } ]
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Amazon Web Services - Lambda",
+        "name" : "authorizer",
+        "description" : "Authorization/authentication of user using federalized authority.",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "14"
+        } ],
+        "group" : "AWS",
+        "technology" : "AWS Lambda"
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Amazon Web Services - API Gateway",
+        "name" : "api-gateway",
+        "description" : "Handles inbound communication - authentisation/authorisation.",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "9"
+        }, {
+          "id" : "22",
+          "sourceId" : "12",
+          "destinationId" : "6",
+          "linkedRelationshipId" : "21"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "8"
+        }, {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "7"
+        }, {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "13"
+        } ],
+        "group" : "AWS",
+        "technology" : "AWS API Gateway"
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Amazon Web Services - Fargate",
+        "name" : "VPC",
+        "description" : "Virtual Private Network",
+        "relationships" : [ {
+          "id" : "33",
+          "sourceId" : "6",
+          "destinationId" : "16",
+          "linkedRelationshipId" : "32"
+        }, {
+          "id" : "37",
+          "sourceId" : "6",
+          "destinationId" : "11",
+          "linkedRelationshipId" : "36"
+        } ],
+        "group" : "AWS",
+        "technology" : "AWS VPC",
+        "components" : [ {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "non-profit-service",
+          "description" : "Manages/provides NPO.",
+          "relationships" : [ {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "10"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "9"
+          }, {
+            "id" : "35",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "16"
+          }, {
+            "id" : "30",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "7"
+          }, {
+            "id" : "38",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "11"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "community-service",
+          "description" : "Manages/provides community data.",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "roadmap-service",
+          "description" : "Manages candidates roadmaps.",
+          "relationships" : [ {
+            "id" : "39",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "candidate-service",
+          "description" : "Manages/provides candidates data.",
+          "relationships" : [ {
+            "id" : "28",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "9"
+          }, {
+            "id" : "32",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "16"
+          }, {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "11"
+          }, {
+            "id" : "27",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "10"
+          } ],
+          "size" : 0
+        } ]
+      } ],
+      "documentation" : {
+        "sections" : [ {
+          "title" : "SpotlightApp",
+          "content" : "## SpotlightApp\n--\nTODO - add spotlight app description from assignment\n\n### Hello\n",
+          "format" : "Markdown",
+          "order" : 1
+        } ]
+      }
+    } ]
+  },
+  "documentation" : {
+    "decisions" : [ {
+      "title" : "Platform",
+      "content" : "# 1. Platform\n\nDate: 2022-06-01\n\n## Status\nproposed\n\n## Context\nPlatform that will host Spotlight application is one of key factors for price, security, scalability (feature/performance) and so on.\n\nThere are two main options:\n- Self hosting system\n- Cloud provider\n\nIn cloud computing, there are several providers.\n\n## Decision\nSpotlightApp will be hosted in cloud by AWS.\nReasons:\n- It's more price efficient - no initial investment in hardware, could scale up/down based on usage/traffic.\n- There are a lots of security features for free in shared responsibility model on managed services.\n- Reducing Time-To-Market\n\n## Consequences\nAll the data will be inside cloud.\n",
+      "format" : "Markdown",
+      "id" : "1",
+      "date" : "2022-06-01T00:00:00Z",
+      "status" : "proposed"
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "5",
+      "key" : "SpotlightApp",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2354,
+        "height" : 2154
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 986,
+        "y" : 287
+      }, {
+        "id" : "2",
+        "x" : 1686,
+        "y" : 287
+      }, {
+        "id" : "4",
+        "x" : 286,
+        "y" : 287
+      }, {
+        "id" : "5",
+        "x" : 286,
+        "y" : 987
+      }, {
+        "id" : "16",
+        "x" : 286,
+        "y" : 1587
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "40",
+        "vertices" : [ {
+          "x" : 361,
+          "y" : 1437
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 661,
+          "y" : 1437
+        } ]
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1536,
+          "y" : 687
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "5",
+      "key" : "SpotlightAppContainer",
+      "order" : 2,
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2620,
+        "height" : 2862
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1183,
+        "y" : 2129
+      }, {
+        "id" : "12",
+        "x" : 808,
+        "y" : 929
+      }, {
+        "id" : "13",
+        "x" : 433,
+        "y" : 1529
+      }, {
+        "id" : "14",
+        "x" : 433,
+        "y" : 2129
+      }, {
+        "id" : "15",
+        "x" : 808,
+        "y" : 329
+      }, {
+        "id" : "16",
+        "x" : 1945,
+        "y" : 2129
+      }, {
+        "id" : "6",
+        "x" : 1183,
+        "y" : 1529
+      } ],
+      "relationships" : [ {
+        "id" : "26"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "VPCComponent",
+      "order" : 3,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3262,
+        "height" : 3116
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1758,
+        "y" : 2608
+      }, {
+        "id" : "12",
+        "x" : 400,
+        "y" : 208
+      }, {
+        "id" : "16",
+        "x" : 2437,
+        "y" : 2008
+      }, {
+        "id" : "7",
+        "x" : 770,
+        "y" : 1408
+      }, {
+        "id" : "8",
+        "x" : 1079,
+        "y" : 808
+      }, {
+        "id" : "9",
+        "x" : 329,
+        "y" : 2008
+      }, {
+        "id" : "10",
+        "x" : 1079,
+        "y" : 2008
+      } ],
+      "relationships" : [ {
+        "id" : "32"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 620,
+          "y" : 1408
+        } ]
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "29",
+        "vertices" : [ {
+          "x" : 1370,
+          "y" : 1408
+        }, {
+          "x" : 1370,
+          "y" : 1708
+        } ]
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 1679,
+          "y" : 2008
+        } ]
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 516,
+          "y" : 1408
+        }, {
+          "x" : 516,
+          "y" : 1708
+        } ]
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "38",
+        "vertices" : [ {
+          "x" : 2212,
+          "y" : 1408
+        }, {
+          "x" : 3037,
+          "y" : 2008
+        }, {
+          "x" : 3037,
+          "y" : 2412
+        } ]
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "SpotlightApp"
+    }
+  }
+}
