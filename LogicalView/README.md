@@ -67,6 +67,7 @@ How it works?
 | Admin                         | TODO        |
 | Non-Profit organization agent | TODO        |
 | Candidate                     | TODO        |
+| Community leader              | TODO        |
 
 
  
