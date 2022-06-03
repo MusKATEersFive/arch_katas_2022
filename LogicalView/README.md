@@ -76,33 +76,33 @@ How it works?
 ![](../assets/logical_view_01.png)
 
 #### Non-Profit view
-| Name                   | Description                          |
-|------------------------|--------------------------------------|
-| Candiates management   | TODO                                 |
-| Collaboration platform | TODO Forums, chats, statistics, .... |
+| Name                   | Description                                                                                                                                                                                                                                                                       |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Candiates management   | - Provides Candidates list with<br>&nbsp;&nbsp;- filtering candidates relevant for given NPO<br>&nbsp;&nbsp;- other filtering<br>- Candidate detail including its<br>&nbsp;&nbsp;- career profile,<br>&nbsp;&nbsp;- needs<br>&nbsp;&nbsp;- career Roadmap<br>- Candidate‘s update – comments, update of career path, candidates history..<br> |
+  | Collaboration platform | - communication, networlking between NPOs (forums, chats)<br>- statistics<br>- resource sharing<br>- human resources hiring  |
 
 
 
 #### Candidate view
-| Name                 | Description                                                                                                     |
-|----------------------|-----------------------------------------------------------------------------------------------------------------|
-| NPO Discover         | TODO                                                                                                            |
-| Onboarding           | TODO     * Registration * Needs Assessment * Career Roadmap                                                     |
-| Inquiry match engine | TODO   * What is the most efficient and effective process to meet the need?    * How will nonprofit gain value? |
+| Name                  | Description                                                                                                                                                                                                                                                                                                                               |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| NPO/Offering Discover | - Catalogue of NPO’s offerings and NPOs<br>- Provides filtering, sorting, contact forms..                                                                                                                                                                                                                                                 |
+| Onboarding            | - Candidates self registration including career profile, resume and candidate’s career asssesment (i.e. his/her needs like interview prepararation, resume review, business attiree etc.)<br>- Allows career mentor assignment<br>- Creation of candidate’s roadmap with the help of assigned career mentor and later partially automated |
+| Inquiry match engine  | - Matches NPOs and their offerings with candidate’s needs, roadmap and other criteria (e.g candidate location)<br>- Matched NPOs are notified                                                                                                                                                                                                |
 
 
 #### Universal view
-| Name           | Description |
-|----------------|-------------|
-| NPO management | TODO        |
-| Dashboard      | TODO        |
-| NPO care tool  | TODO        |
-| Data analasis  | How will candidate progress be tracked        |
+| Name           | Description                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| NPO management | - New NPO selfregistration including community profile and service capabilities assesment which starts new NPO intake process<br>- Provides listing of new NPO intakes and its details<br>- Allows assining community leader to new NPO intake<br>- Existing NPO administration capability including capabilities (offering) management                                              |
+| Dashboard      | - Dashboard for Candidates<br>&nbsp;&nbsp; -Candidate can see its upcomming meetings and events, messages from career mentor etc.<br>- Dashboard for NPOs<br>&nbsp;&nbsp; - NPOs can see its candidates and their progress, reports, other NPOs and Candidates messages etc..                                                                                                        |
+| NPO care tool  | - Candidate can<br>&nbsp;&nbsp;-see and modify its profile<br>&nbsp;&nbsp;-see its history<br>&nbsp;&nbsp;-career path<br>&nbsp;&nbsp;-communicate with NPOs, mentor etc.<br>&nbsp;&nbsp;-upcomming events<br>&nbsp;&nbsp;-etc.<br>- Collaboration between NPO and Candidate<br>&nbsp;&nbsp; - Communication<br>&nbsp;&nbsp; - Calendar, meetings reservation, training reservations |
+| Data analasis  | - Reporting<br>- Candidate history tracking                                                                                                                            |
 
 #### External services
-| Name                 | Description |
-|----------------------|-------------|
-| Notification service | TODO        |
+| Name                 | Description                                                                                                                                              |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Notification service | - Notifies NPOs, Candidates and other about events like bew Candidate or new NPO registration, incomming message, upcomming event, completed event etc.. |
 
 
 
